@@ -6,6 +6,5 @@ def calculo():
     return total
 
 
-print("Hola " + nombre,",")
-print("vas a cumplir 100 años en el año")
-print(calculo())
+print("Hola " + nombre + ",")
+print("vas a cumplir 100 años en el año", int(calculo()))
